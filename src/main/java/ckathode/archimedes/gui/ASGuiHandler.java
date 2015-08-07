@@ -6,7 +6,7 @@ import net.minecraft.world.World;
 import ckathode.archimedes.blockitem.TileEntityEngine;
 import ckathode.archimedes.blockitem.TileEntityHelm;
 import ckathode.archimedes.entity.EntityShip;
-import cpw.mods.fml.common.network.IGuiHandler;
+import net.minecraftforge.fml.common.network.IGuiHandler;
 
 public class ASGuiHandler implements IGuiHandler
 {

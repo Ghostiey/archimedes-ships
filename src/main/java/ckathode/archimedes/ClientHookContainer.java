@@ -3,9 +3,9 @@ package ckathode.archimedes;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import ckathode.archimedes.entity.EntityShip;
 import ckathode.archimedes.network.MsgRequestShipData;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 @SideOnly(Side.CLIENT)
 public class ClientHookContainer extends CommonHookContainer

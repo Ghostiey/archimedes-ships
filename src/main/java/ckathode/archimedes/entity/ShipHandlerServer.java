@@ -7,7 +7,7 @@ import net.minecraft.world.ChunkPosition;
 import ckathode.archimedes.ArchimedesShipMod;
 import ckathode.archimedes.chunk.MobileChunkServer;
 import ckathode.archimedes.network.MsgChunkBlockUpdate;
-import cpw.mods.fml.common.network.NetworkRegistry.TargetPoint;
+import net.minecraftforge.fml.common.network.NetworkRegistry.TargetPoint;
 
 public class ShipHandlerServer extends ShipHandlerCommon
 {

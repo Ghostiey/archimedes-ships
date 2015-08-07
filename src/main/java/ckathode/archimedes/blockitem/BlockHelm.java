@@ -20,8 +20,8 @@ import ckathode.archimedes.entity.EntityEntityAttachment;
 import ckathode.archimedes.entity.EntityParachute;
 import ckathode.archimedes.entity.EntityShip;
 import ckathode.archimedes.util.RotationHelper;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockHelm extends BlockDirectional implements IEntitySelector, ITileEntityProvider
 {

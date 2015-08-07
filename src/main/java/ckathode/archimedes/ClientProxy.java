@@ -19,9 +19,9 @@ import ckathode.archimedes.render.RenderBlockSeat;
 import ckathode.archimedes.render.RenderParachute;
 import ckathode.archimedes.render.RenderShip;
 import ckathode.archimedes.render.TileEntityGaugeRenderer;
-import cpw.mods.fml.client.registry.ClientRegistry;
-import cpw.mods.fml.client.registry.RenderingRegistry;
-import cpw.mods.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 
 public class ClientProxy extends CommonProxy
 {

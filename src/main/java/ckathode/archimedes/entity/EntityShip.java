@@ -46,9 +46,9 @@ import ckathode.archimedes.control.ShipControllerClient;
 import ckathode.archimedes.control.ShipControllerCommon;
 import ckathode.archimedes.util.AABBRotator;
 import ckathode.archimedes.util.MathHelperMod;
-import cpw.mods.fml.common.registry.IEntityAdditionalSpawnData;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.common.registry.IEntityAdditionalSpawnData;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class EntityShip extends EntityBoat implements IEntityAdditionalSpawnData
 {

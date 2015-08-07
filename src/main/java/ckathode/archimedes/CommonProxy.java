@@ -13,8 +13,8 @@ import ckathode.archimedes.network.MsgControlInput;
 import ckathode.archimedes.network.MsgFarInteract;
 import ckathode.archimedes.network.MsgRequestShipData;
 import ckathode.archimedes.network.MsgTileEntities;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 public class CommonProxy
 {
